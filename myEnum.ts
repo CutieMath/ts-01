@@ -11,6 +11,7 @@ const enum SeatType {
     WINDOW
 }
 const chooseSeat = SeatType.AISLE
+// the console.log will be 0
 
 
 // enum can define values
@@ -20,5 +21,7 @@ const enum type2 {
     testType3 = "123",
     testType4 = 123
 }
-const testType = type2.testType
+const testType = type2.testType3
+// the console.log will be "123"
+
 
